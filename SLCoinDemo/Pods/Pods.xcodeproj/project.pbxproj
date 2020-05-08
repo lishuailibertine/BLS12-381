@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E8B91EE1BCB887CD54046E3E0C5444CA /* bls-signatures-pod */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A6D93C97988569ED52E692789A748ED7 /* Build configuration list for PBXAggregateTarget "bls-signatures-pod" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "bls-signatures-pod";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		149E9D7EAC20DA34928ED6C74D54B374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AF6EB73A049B2A19827962AB1191E787 /* Pods-SLCoinDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25399FF396F5D3FC1F75A6BA8D3F5154 /* Pods-SLCoinDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8F1C3F0F4B111983CFAFB8B906C006 /* Pods-SLCoinDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD4E363902DB3F2589A456BE8C7320E /* Pods-SLCoinDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D697B893D0B8B70BFAA5189F76E98A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8B91EE1BCB887CD54046E3E0C5444CA;
+			remoteInfo = "bls-signatures-pod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010B5BED84BD7927B044C2BE1C634EC9 /* relic_bn_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_bn_low.h; path = contrib/relic/include/low/relic_bn_low.h; sourceTree = "<group>"; };
+		07030B056BA0E900FC5A3526DCE8FE49 /* Pods-SLCoinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCoinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0768562C1967B196B1F784F1B442264F /* relic_epx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_epx.h; path = contrib/relic/include/relic_epx.h; sourceTree = "<group>"; };
+		0A70B759DC6C162F81DB83003C6C8839 /* relic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic.h; path = contrib/relic/include/relic.h; sourceTree = "<group>"; };
+		0BCEACCC99A0B68EE7B6BB99E18B3CF2 /* relic_fb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fb.h; path = contrib/relic/include/relic_fb.h; sourceTree = "<group>"; };
+		13163EEE0F55CB6B7ADE8A4B183FD46D /* relic_core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_core.h; path = contrib/relic/include/relic_core.h; sourceTree = "<group>"; };
+		2148B7B3C1E20F36CA7E24A928C65F81 /* relic_fpx_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fpx_low.h; path = contrib/relic/include/low/relic_fpx_low.h; sourceTree = "<group>"; };
+		24FA1FABDB2101647F386B76FB6675CB /* extendedprivatekey.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extendedprivatekey.hpp; path = src/extendedprivatekey.hpp; sourceTree = "<group>"; };
+		25399FF396F5D3FC1F75A6BA8D3F5154 /* Pods-SLCoinDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCoinDemo-umbrella.h"; sourceTree = "<group>"; };
+		2974C274F7227D61A871B0D9978F91A9 /* chaincode.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = chaincode.hpp; path = src/chaincode.hpp; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3351746C8861CCB4CAC4D7A8CFF11FFD /* relic_dv_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_dv_low.h; path = contrib/relic/include/low/relic_dv_low.h; sourceTree = "<group>"; };
+		37F511346D73A477D96904273417634F /* bls-signatures-pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "bls-signatures-pod.release.xcconfig"; sourceTree = "<group>"; };
+		39A9BD151D6A8B0FA2D12252207F6958 /* Pods-SLCoinDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCoinDemo-Info.plist"; sourceTree = "<group>"; };
+		3FE5451DFE42F542BC4864AC3A21AB92 /* relic_conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_conf.h; path = "contrib/relic/relic-iphoneos-arm64/include/relic_conf.h"; sourceTree = "<group>"; };
+		40D51F8580A03B7C956781793EAF579B /* relic_fp_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fp_low.h; path = contrib/relic/include/low/relic_fp_low.h; sourceTree = "<group>"; };
+		45782C2F2241D51F1AB31BB1F6E62ACC /* relic_fp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fp.h; path = contrib/relic/include/relic_fp.h; sourceTree = "<group>"; };
+		474C51A67847D02577136952D856F1FB /* publickey.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = publickey.hpp; path = src/publickey.hpp; sourceTree = "<group>"; };
+		48735777D938C74126B89E14E547E5DF /* relic_ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_ec.h; path = contrib/relic/include/relic_ec.h; sourceTree = "<group>"; };
+		4BEC0480B0A6D5CC061F1F9399DFD066 /* relic_fbx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fbx.h; path = contrib/relic/include/relic_fbx.h; sourceTree = "<group>"; };
+		510205BDE0849EA49A332BC16679A02C /* relic_cp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_cp.h; path = contrib/relic/include/relic_cp.h; sourceTree = "<group>"; };
+		5705990131509C41B210111377038AFD /* libbls_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libbls_ios.a; path = artefacts/libbls_ios.a; sourceTree = "<group>"; };
+		5810CDC5790991B54E04BD27DECEF7F5 /* relic_trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_trace.h; path = contrib/relic/include/relic_trace.h; sourceTree = "<group>"; };
+		58AB34A0EC724AD85269D50103AA5F41 /* util.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = util.hpp; path = src/util.hpp; sourceTree = "<group>"; };
+		5C02531E808AD50DBDB51FE3C1CBD0DE /* relic_md.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_md.h; path = contrib/relic/include/relic_md.h; sourceTree = "<group>"; };
+		63F9E89B5CD23C6A06EEAFCF6001B3A9 /* bls-signatures-pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "bls-signatures-pod.debug.xcconfig"; sourceTree = "<group>"; };
+		660A2B5411BCA9D9864539A9F91F4E4D /* relic_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_types.h; path = contrib/relic/include/relic_types.h; sourceTree = "<group>"; };
+		66883B2A05FFD44080CFFC566559694C /* relic_ep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_ep.h; path = contrib/relic/include/relic_ep.h; sourceTree = "<group>"; };
+		758E91EA687084BE3C726F0F876DB160 /* relic_arch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_arch.h; path = contrib/relic/include/relic_arch.h; sourceTree = "<group>"; };
+		761C3FC7B67D7604D47AD771F859BA9C /* privatekey.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = privatekey.hpp; path = src/privatekey.hpp; sourceTree = "<group>"; };
+		7C0E3B23341BFC90627375D6F6577618 /* relic_err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_err.h; path = contrib/relic/include/relic_err.h; sourceTree = "<group>"; };
+		7DDF9E88AF72B6918D225096A71FEC37 /* Pods-SLCoinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCoinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8345E87C01D99DB11BCC98CD73A8FCA9 /* relic_pp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_pp.h; path = contrib/relic/include/relic_pp.h; sourceTree = "<group>"; };
+		88B4B1FC78FB7DD86C8B88E87D019CF3 /* Pods-SLCoinDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCoinDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DC805558EF38A5A8D72FE1720EF2304 /* relic_bench.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_bench.h; path = contrib/relic/include/relic_bench.h; sourceTree = "<group>"; };
+		8ED24627867DAEEB877DEF963AFB1B6C /* Pods-SLCoinDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLCoinDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F785FBE79636F7D6685728ACAB1393A /* relic_dv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_dv.h; path = contrib/relic/include/relic_dv.h; sourceTree = "<group>"; };
+		98FFB2C04F60F0D08DAF9B7B6AD7EAC1 /* aggregationinfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = aggregationinfo.hpp; path = src/aggregationinfo.hpp; sourceTree = "<group>"; };
+		9B8515F1B9C919BE45E8D5B56A3338F3 /* relic_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_util.h; path = contrib/relic/include/relic_util.h; sourceTree = "<group>"; };
+		9C10B9E4D8799D42053E1EBF36E6E265 /* relic_pc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_pc.h; path = contrib/relic/include/relic_pc.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E762F414AB5793661795D02DEA38A7 /* gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gmp.h; path = gmp/include/gmp.h; sourceTree = "<group>"; };
+		A6484BA3D1D5187447F67BF02E26774F /* Pods_SLCoinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLCoinDemo.framework; path = "Pods-SLCoinDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8E2B1A831E889363A47A56CB47400D /* bls.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = bls.hpp; path = src/bls.hpp; sourceTree = "<group>"; };
+		B0AAAF5A55041F34046B42D201A1A868 /* signature.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = signature.hpp; path = src/signature.hpp; sourceTree = "<group>"; };
+		BAB4048F62B8B6A16E31E4854569387F /* relic_fpx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fpx.h; path = contrib/relic/include/relic_fpx.h; sourceTree = "<group>"; };
+		C3305B0DBD7C3C3D41DE15125EB97ABE /* relic_fb_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_fb_low.h; path = contrib/relic/include/low/relic_fb_low.h; sourceTree = "<group>"; };
+		CFA3EFA20B1E14D4E54EB31C0E7F12E9 /* Pods-SLCoinDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLCoinDemo.modulemap"; sourceTree = "<group>"; };
+		D5E27C6EE9A9FDCED020F057061EEAC4 /* relic_ed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_ed.h; path = contrib/relic/include/relic_ed.h; sourceTree = "<group>"; };
+		D6469A922FD4A661420C7710868A4D91 /* librelic_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = librelic_ios.a; path = artefacts/librelic_ios.a; sourceTree = "<group>"; };
+		DFE59AB6EB18CDE5C1702FD5F7B42D0F /* relic_rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_rand.h; path = contrib/relic/include/relic_rand.h; sourceTree = "<group>"; };
+		E0E478F11ECD90C8451550C59D3E6FB0 /* relic_pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_pool.h; path = contrib/relic/include/relic_pool.h; sourceTree = "<group>"; };
+		E4057B3E250C149ACD7DF65353C755D6 /* relic_bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_bn.h; path = contrib/relic/include/relic_bn.h; sourceTree = "<group>"; };
+		EC7FE2DC0E23BF2EE25E268A4C82058F /* relic_eb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_eb.h; path = contrib/relic/include/relic_eb.h; sourceTree = "<group>"; };
+		EEF6C0C084A3D7590678D144B12907D2 /* relic_bc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_bc.h; path = contrib/relic/include/relic_bc.h; sourceTree = "<group>"; };
+		F3AE5C409E3FA24069604AD0E21DD771 /* relic_test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_test.h; path = contrib/relic/include/relic_test.h; sourceTree = "<group>"; };
+		F62DE7ECDB0D937267C0309FA8B6B247 /* relic_label.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relic_label.h; path = contrib/relic/include/relic_label.h; sourceTree = "<group>"; };
+		F96DBAB676F0C1F30405F9170DE1663A /* libgmp_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libgmp_ios.a; path = artefacts/libgmp_ios.a; sourceTree = "<group>"; };
+		FBC4E2283A3481DBAF036871339A4225 /* extendedpublickey.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = extendedpublickey.hpp; path = src/extendedpublickey.hpp; sourceTree = "<group>"; };
+		FFD4E363902DB3F2589A456BE8C7320E /* Pods-SLCoinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCoinDemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE6591E5B65612319CD7EBF2E081ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E9D7EAC20DA34928ED6C74D54B374 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036F4312A3AADB7EBE9AF092A2E3ED77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DEB22AA597FAA73C1262F39C9C8C869 /* bls-signatures-pod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		09990B09E69B627918F3C4F5D25A711E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5705990131509C41B210111377038AFD /* libbls_ios.a */,
+				F96DBAB676F0C1F30405F9170DE1663A /* libgmp_ios.a */,
+				D6469A922FD4A661420C7710868A4D91 /* librelic_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DE3BD9494E40712783492D2EFE0AF7E /* Pods-SLCoinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3EFA20B1E14D4E54EB31C0E7F12E9 /* Pods-SLCoinDemo.modulemap */,
+				8ED24627867DAEEB877DEF963AFB1B6C /* Pods-SLCoinDemo-acknowledgements.markdown */,
+				88B4B1FC78FB7DD86C8B88E87D019CF3 /* Pods-SLCoinDemo-acknowledgements.plist */,
+				FFD4E363902DB3F2589A456BE8C7320E /* Pods-SLCoinDemo-dummy.m */,
+				39A9BD151D6A8B0FA2D12252207F6958 /* Pods-SLCoinDemo-Info.plist */,
+				25399FF396F5D3FC1F75A6BA8D3F5154 /* Pods-SLCoinDemo-umbrella.h */,
+				07030B056BA0E900FC5A3526DCE8FE49 /* Pods-SLCoinDemo.debug.xcconfig */,
+				7DDF9E88AF72B6918D225096A71FEC37 /* Pods-SLCoinDemo.release.xcconfig */,
+			);
+			name = "Pods-SLCoinDemo";
+			path = "Target Support Files/Pods-SLCoinDemo";
+			sourceTree = "<group>";
+		};
+		0DEB22AA597FAA73C1262F39C9C8C869 /* bls-signatures-pod */ = {
+			isa = PBXGroup;
+			children = (
+				98FFB2C04F60F0D08DAF9B7B6AD7EAC1 /* aggregationinfo.hpp */,
+				AB8E2B1A831E889363A47A56CB47400D /* bls.hpp */,
+				2974C274F7227D61A871B0D9978F91A9 /* chaincode.hpp */,
+				24FA1FABDB2101647F386B76FB6675CB /* extendedprivatekey.hpp */,
+				FBC4E2283A3481DBAF036871339A4225 /* extendedpublickey.hpp */,
+				A5E762F414AB5793661795D02DEA38A7 /* gmp.h */,
+				761C3FC7B67D7604D47AD771F859BA9C /* privatekey.hpp */,
+				474C51A67847D02577136952D856F1FB /* publickey.hpp */,
+				0A70B759DC6C162F81DB83003C6C8839 /* relic.h */,
+				758E91EA687084BE3C726F0F876DB160 /* relic_arch.h */,
+				EEF6C0C084A3D7590678D144B12907D2 /* relic_bc.h */,
+				8DC805558EF38A5A8D72FE1720EF2304 /* relic_bench.h */,
+				E4057B3E250C149ACD7DF65353C755D6 /* relic_bn.h */,
+				010B5BED84BD7927B044C2BE1C634EC9 /* relic_bn_low.h */,
+				3FE5451DFE42F542BC4864AC3A21AB92 /* relic_conf.h */,
+				13163EEE0F55CB6B7ADE8A4B183FD46D /* relic_core.h */,
+				510205BDE0849EA49A332BC16679A02C /* relic_cp.h */,
+				8F785FBE79636F7D6685728ACAB1393A /* relic_dv.h */,
+				3351746C8861CCB4CAC4D7A8CFF11FFD /* relic_dv_low.h */,
+				EC7FE2DC0E23BF2EE25E268A4C82058F /* relic_eb.h */,
+				48735777D938C74126B89E14E547E5DF /* relic_ec.h */,
+				D5E27C6EE9A9FDCED020F057061EEAC4 /* relic_ed.h */,
+				66883B2A05FFD44080CFFC566559694C /* relic_ep.h */,
+				0768562C1967B196B1F784F1B442264F /* relic_epx.h */,
+				7C0E3B23341BFC90627375D6F6577618 /* relic_err.h */,
+				0BCEACCC99A0B68EE7B6BB99E18B3CF2 /* relic_fb.h */,
+				C3305B0DBD7C3C3D41DE15125EB97ABE /* relic_fb_low.h */,
+				4BEC0480B0A6D5CC061F1F9399DFD066 /* relic_fbx.h */,
+				45782C2F2241D51F1AB31BB1F6E62ACC /* relic_fp.h */,
+				40D51F8580A03B7C956781793EAF579B /* relic_fp_low.h */,
+				BAB4048F62B8B6A16E31E4854569387F /* relic_fpx.h */,
+				2148B7B3C1E20F36CA7E24A928C65F81 /* relic_fpx_low.h */,
+				F62DE7ECDB0D937267C0309FA8B6B247 /* relic_label.h */,
+				5C02531E808AD50DBDB51FE3C1CBD0DE /* relic_md.h */,
+				9C10B9E4D8799D42053E1EBF36E6E265 /* relic_pc.h */,
+				E0E478F11ECD90C8451550C59D3E6FB0 /* relic_pool.h */,
+				8345E87C01D99DB11BCC98CD73A8FCA9 /* relic_pp.h */,
+				DFE59AB6EB18CDE5C1702FD5F7B42D0F /* relic_rand.h */,
+				F3AE5C409E3FA24069604AD0E21DD771 /* relic_test.h */,
+				5810CDC5790991B54E04BD27DECEF7F5 /* relic_trace.h */,
+				660A2B5411BCA9D9864539A9F91F4E4D /* relic_types.h */,
+				9B8515F1B9C919BE45E8D5B56A3338F3 /* relic_util.h */,
+				B0AAAF5A55041F34046B42D201A1A868 /* signature.hpp */,
+				58AB34A0EC724AD85269D50103AA5F41 /* util.hpp */,
+				09990B09E69B627918F3C4F5D25A711E /* Frameworks */,
+				14ADB3B23BA829E4A4BB8FDC7574686B /* Support Files */,
+			);
+			name = "bls-signatures-pod";
+			path = "bls-signatures-pod";
+			sourceTree = "<group>";
+		};
+		14ADB3B23BA829E4A4BB8FDC7574686B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F9E89B5CD23C6A06EEAFCF6001B3A9 /* bls-signatures-pod.debug.xcconfig */,
+				37F511346D73A477D96904273417634F /* bls-signatures-pod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/bls-signatures-pod";
+			sourceTree = "<group>";
+		};
+		6C31024F36673F991DA4293F2566FCB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3BD9494E40712783492D2EFE0AF7E /* Pods-SLCoinDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				036F4312A3AADB7EBE9AF092A2E3ED77 /* Pods */,
+				F5993D520621F3713F5A4B7741AB911D /* Products */,
+				6C31024F36673F991DA4293F2566FCB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5993D520621F3713F5A4B7741AB911D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6484BA3D1D5187447F67BF02E26774F /* Pods_SLCoinDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8AD878C25D78716B52EB4E774F5E1C5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6EB73A049B2A19827962AB1191E787 /* Pods-SLCoinDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FD81EA116DBD5977B38359D29132D908 /* Pods-SLCoinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F95D996B31821D4AC206CACDBB3B91 /* Build configuration list for PBXNativeTarget "Pods-SLCoinDemo" */;
+			buildPhases = (
+				8AD878C25D78716B52EB4E774F5E1C5C /* Headers */,
+				4111C8E05D9561F9E5D205FEED0908D7 /* Sources */,
+				AEE6591E5B65612319CD7EBF2E081ACA /* Frameworks */,
+				FD17B3E0C8E93C7AC4EC5E3FC44569D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BFCC54796372594B680407E67BAF4C /* PBXTargetDependency */,
+			);
+			name = "Pods-SLCoinDemo";
+			productName = "Pods-SLCoinDemo";
+			productReference = A6484BA3D1D5187447F67BF02E26774F /* Pods_SLCoinDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F5993D520621F3713F5A4B7741AB911D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8B91EE1BCB887CD54046E3E0C5444CA /* bls-signatures-pod */,
+				FD81EA116DBD5977B38359D29132D908 /* Pods-SLCoinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD17B3E0C8E93C7AC4EC5E3FC44569D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4111C8E05D9561F9E5D205FEED0908D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8F1C3F0F4B111983CFAFB8B906C006 /* Pods-SLCoinDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BFCC54796372594B680407E67BAF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "bls-signatures-pod";
+			target = E8B91EE1BCB887CD54046E3E0C5444CA /* bls-signatures-pod */;
+			targetProxy = D697B893D0B8B70BFAA5189F76E98A40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2CF48C491BA1BA84636C4C80DBD63D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F9E89B5CD23C6A06EEAFCF6001B3A9 /* bls-signatures-pod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31E261F6D88D8A41B338F408CFD0B756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDF9E88AF72B6918D225096A71FEC37 /* Pods-SLCoinDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLCoinDemo/Pods-SLCoinDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLCoinDemo/Pods-SLCoinDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5AC9CB77F85ACCAF3F141799B3987C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07030B056BA0E900FC5A3526DCE8FE49 /* Pods-SLCoinDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLCoinDemo/Pods-SLCoinDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLCoinDemo/Pods-SLCoinDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA2994F2AE0B5D3F9E46F8727CFDE802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F511346D73A477D96904273417634F /* bls-signatures-pod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F95D996B31821D4AC206CACDBB3B91 /* Build configuration list for PBXNativeTarget "Pods-SLCoinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC9CB77F85ACCAF3F141799B3987C2E /* Debug */,
+				31E261F6D88D8A41B338F408CFD0B756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D93C97988569ED52E692789A748ED7 /* Build configuration list for PBXAggregateTarget "bls-signatures-pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF48C491BA1BA84636C4C80DBD63D2B /* Debug */,
+				FA2994F2AE0B5D3F9E46F8727CFDE802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
