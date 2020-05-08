@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLSSignLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'BLS-381椭圆曲线算法Framework库.'
 
   s.description      = <<-DESC
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lishuailibertine/BLS12-381.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.vendored_frameworks ="Products/SLBLSSign.framework"
+  s.vendored_frameworks ="Frameworks/SLBLSSign.framework"
 end

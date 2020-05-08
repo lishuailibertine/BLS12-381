@@ -1,0 +1,6 @@
+framework module SLBLSSign {
+  umbrella header "SLBLSSign.h"
+
+  export *
+  module * { export * }
+}
