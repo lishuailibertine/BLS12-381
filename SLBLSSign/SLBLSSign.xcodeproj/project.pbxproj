@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		828FAD2A2462C81E00B0B03F /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 828FAD2B2462C81E00B0B03F /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				828FAD2E2462C82B00B0B03F /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8242C4982464191A00A4C243 /* librelic_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8242C45E2464191900A4C243 /* librelic_ios.a */; };
+		8242C4992464191A00A4C243 /* libgmp_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8242C45F2464191900A4C243 /* libgmp_ios.a */; };
+		8242C49A2464191A00A4C243 /* libbls_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8242C4602464191900A4C243 /* libbls_ios.a */; };
+		8242C49B2464191A00A4C243 /* gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4632464191900A4C243 /* gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C49C2464191A00A4C243 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8242C4642464191900A4C243 /* LICENSE */; };
+		8242C49D2464191A00A4C243 /* relic_epx.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4682464191900A4C243 /* relic_epx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C49E2464191A00A4C243 /* relic_ed.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4692464191900A4C243 /* relic_ed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C49F2464191A00A4C243 /* relic_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46A2464191900A4C243 /* relic_pp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A02464191A00A4C243 /* relic_pool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46B2464191900A4C243 /* relic_pool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A12464191A00A4C243 /* relic_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46C2464191900A4C243 /* relic_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A22464191A00A4C243 /* relic_fpx.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46D2464191900A4C243 /* relic_fpx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A32464191A00A4C243 /* relic_dv.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46E2464191900A4C243 /* relic_dv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A42464191A00A4C243 /* relic_label.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C46F2464191900A4C243 /* relic_label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A52464191A00A4C243 /* relic_fpx_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4712464191900A4C243 /* relic_fpx_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A62464191A00A4C243 /* relic_bn_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4722464191900A4C243 /* relic_bn_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A72464191A00A4C243 /* relic_fp_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4732464191900A4C243 /* relic_fp_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A82464191A00A4C243 /* relic_dv_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4742464191900A4C243 /* relic_dv_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4A92464191A00A4C243 /* relic_fb_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4752464191900A4C243 /* relic_fb_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AA2464191A00A4C243 /* relic_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4762464191900A4C243 /* relic_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AB2464191A00A4C243 /* relic_ec.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4772464191900A4C243 /* relic_ec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AC2464191A00A4C243 /* relic_fbx.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4782464191900A4C243 /* relic_fbx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AD2464191A00A4C243 /* relic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4792464191900A4C243 /* relic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AE2464191A00A4C243 /* relic_fp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47A2464191900A4C243 /* relic_fp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4AF2464191A00A4C243 /* relic_fb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47B2464191900A4C243 /* relic_fb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B02464191A00A4C243 /* relic_test.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47C2464191900A4C243 /* relic_test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B12464191A00A4C243 /* relic_cp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47D2464191900A4C243 /* relic_cp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B22464191A00A4C243 /* relic_bench.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47E2464191900A4C243 /* relic_bench.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B32464191A00A4C243 /* relic_eb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C47F2464191900A4C243 /* relic_eb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B42464191A00A4C243 /* relic_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4802464191900A4C243 /* relic_util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B52464191A00A4C243 /* relic_md.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4812464191900A4C243 /* relic_md.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B62464191A00A4C243 /* relic_rand.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4822464191900A4C243 /* relic_rand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B72464191A00A4C243 /* relic_bc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4832464191900A4C243 /* relic_bc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B82464191A00A4C243 /* relic_trace.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4842464191900A4C243 /* relic_trace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4B92464191A00A4C243 /* relic_ep.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4852464191900A4C243 /* relic_ep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BA2464191A00A4C243 /* relic_err.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4862464191900A4C243 /* relic_err.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BB2464191A00A4C243 /* relic_arch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4872464191900A4C243 /* relic_arch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BC2464191A00A4C243 /* relic_pc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4882464191900A4C243 /* relic_pc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BD2464191A00A4C243 /* relic_bn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4892464191900A4C243 /* relic_bn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BE2464191A00A4C243 /* relic_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8242C48C2464191900A4C243 /* relic_conf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4BF2464191A00A4C243 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8242C48D2464191900A4C243 /* README.md */; };
+		8242C4C02464191A00A4C243 /* extendedpublickey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C48F2464191900A4C243 /* extendedpublickey.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C12464191A00A4C243 /* aggregationinfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4902464191900A4C243 /* aggregationinfo.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C22464191A00A4C243 /* publickey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4912464191900A4C243 /* publickey.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C32464191A00A4C243 /* extendedprivatekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4922464191900A4C243 /* extendedprivatekey.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C42464191A00A4C243 /* util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4932464191900A4C243 /* util.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C52464191A00A4C243 /* bls.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4942464191900A4C243 /* bls.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C62464191A00A4C243 /* signature.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4952464191900A4C243 /* signature.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C72464191A00A4C243 /* privatekey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4962464191900A4C243 /* privatekey.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8242C4C82464191A00A4C243 /* chaincode.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8242C4972464191900A4C243 /* chaincode.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		828FAD1A2462C76400B0B03F /* SLBLSSign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828FAD102462C76300B0B03F /* SLBLSSign.framework */; };
+		828FAD1F2462C76400B0B03F /* SLBLSSignTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 828FAD1E2462C76400B0B03F /* SLBLSSignTests.m */; };
+		828FAD212462C76400B0B03F /* SLBLSSign.h in Headers */ = {isa = PBXBuildFile; fileRef = 828FAD132462C76300B0B03F /* SLBLSSign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		828FAD1B2462C76400B0B03F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 828FAD072462C76300B0B03F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828FAD0F2462C76300B0B03F;
+			remoteInfo = SLBLSSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8242C45E2464191900A4C243 /* librelic_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librelic_ios.a; sourceTree = "<group>"; };
+		8242C45F2464191900A4C243 /* libgmp_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp_ios.a; sourceTree = "<group>"; };
+		8242C4602464191900A4C243 /* libbls_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbls_ios.a; sourceTree = "<group>"; };
+		8242C4632464191900A4C243 /* gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gmp.h; sourceTree = "<group>"; };
+		8242C4642464191900A4C243 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8242C4682464191900A4C243 /* relic_epx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_epx.h; sourceTree = "<group>"; };
+		8242C4692464191900A4C243 /* relic_ed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_ed.h; sourceTree = "<group>"; };
+		8242C46A2464191900A4C243 /* relic_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_pp.h; sourceTree = "<group>"; };
+		8242C46B2464191900A4C243 /* relic_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_pool.h; sourceTree = "<group>"; };
+		8242C46C2464191900A4C243 /* relic_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_types.h; sourceTree = "<group>"; };
+		8242C46D2464191900A4C243 /* relic_fpx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fpx.h; sourceTree = "<group>"; };
+		8242C46E2464191900A4C243 /* relic_dv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_dv.h; sourceTree = "<group>"; };
+		8242C46F2464191900A4C243 /* relic_label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_label.h; sourceTree = "<group>"; };
+		8242C4712464191900A4C243 /* relic_fpx_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fpx_low.h; sourceTree = "<group>"; };
+		8242C4722464191900A4C243 /* relic_bn_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_bn_low.h; sourceTree = "<group>"; };
+		8242C4732464191900A4C243 /* relic_fp_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fp_low.h; sourceTree = "<group>"; };
+		8242C4742464191900A4C243 /* relic_dv_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_dv_low.h; sourceTree = "<group>"; };
+		8242C4752464191900A4C243 /* relic_fb_low.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fb_low.h; sourceTree = "<group>"; };
+		8242C4762464191900A4C243 /* relic_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_core.h; sourceTree = "<group>"; };
+		8242C4772464191900A4C243 /* relic_ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_ec.h; sourceTree = "<group>"; };
+		8242C4782464191900A4C243 /* relic_fbx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fbx.h; sourceTree = "<group>"; };
+		8242C4792464191900A4C243 /* relic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic.h; sourceTree = "<group>"; };
+		8242C47A2464191900A4C243 /* relic_fp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fp.h; sourceTree = "<group>"; };
+		8242C47B2464191900A4C243 /* relic_fb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_fb.h; sourceTree = "<group>"; };
+		8242C47C2464191900A4C243 /* relic_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_test.h; sourceTree = "<group>"; };
+		8242C47D2464191900A4C243 /* relic_cp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_cp.h; sourceTree = "<group>"; };
+		8242C47E2464191900A4C243 /* relic_bench.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_bench.h; sourceTree = "<group>"; };
+		8242C47F2464191900A4C243 /* relic_eb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_eb.h; sourceTree = "<group>"; };
+		8242C4802464191900A4C243 /* relic_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_util.h; sourceTree = "<group>"; };
+		8242C4812464191900A4C243 /* relic_md.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_md.h; sourceTree = "<group>"; };
+		8242C4822464191900A4C243 /* relic_rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_rand.h; sourceTree = "<group>"; };
+		8242C4832464191900A4C243 /* relic_bc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_bc.h; sourceTree = "<group>"; };
+		8242C4842464191900A4C243 /* relic_trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_trace.h; sourceTree = "<group>"; };
+		8242C4852464191900A4C243 /* relic_ep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_ep.h; sourceTree = "<group>"; };
+		8242C4862464191900A4C243 /* relic_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_err.h; sourceTree = "<group>"; };
+		8242C4872464191900A4C243 /* relic_arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_arch.h; sourceTree = "<group>"; };
+		8242C4882464191900A4C243 /* relic_pc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_pc.h; sourceTree = "<group>"; };
+		8242C4892464191900A4C243 /* relic_bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_bn.h; sourceTree = "<group>"; };
+		8242C48C2464191900A4C243 /* relic_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relic_conf.h; sourceTree = "<group>"; };
+		8242C48D2464191900A4C243 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8242C48F2464191900A4C243 /* extendedpublickey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extendedpublickey.hpp; sourceTree = "<group>"; };
+		8242C4902464191900A4C243 /* aggregationinfo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = aggregationinfo.hpp; sourceTree = "<group>"; };
+		8242C4912464191900A4C243 /* publickey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = publickey.hpp; sourceTree = "<group>"; };
+		8242C4922464191900A4C243 /* extendedprivatekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = extendedprivatekey.hpp; sourceTree = "<group>"; };
+		8242C4932464191900A4C243 /* util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
+		8242C4942464191900A4C243 /* bls.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bls.hpp; sourceTree = "<group>"; };
+		8242C4952464191900A4C243 /* signature.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = signature.hpp; sourceTree = "<group>"; };
+		8242C4962464191900A4C243 /* privatekey.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = privatekey.hpp; sourceTree = "<group>"; };
+		8242C4972464191900A4C243 /* chaincode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = chaincode.hpp; sourceTree = "<group>"; };
+		828FAD102462C76300B0B03F /* SLBLSSign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLBLSSign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FAD132462C76300B0B03F /* SLBLSSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBLSSign.h; sourceTree = "<group>"; };
+		828FAD142462C76300B0B03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		828FAD192462C76400B0B03F /* SLBLSSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLBLSSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		828FAD1E2462C76400B0B03F /* SLBLSSignTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBLSSignTests.m; sourceTree = "<group>"; };
+		828FAD202462C76400B0B03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		828FAD0D2462C76300B0B03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8242C49A2464191A00A4C243 /* libbls_ios.a in Frameworks */,
+				8242C4992464191A00A4C243 /* libgmp_ios.a in Frameworks */,
+				8242C4982464191A00A4C243 /* librelic_ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828FAD162462C76400B0B03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828FAD1A2462C76400B0B03F /* SLBLSSign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8242C45C2464191900A4C243 /* bls-signatures-pod */ = {
+			isa = PBXGroup;
+			children = (
+				8242C45D2464191900A4C243 /* artefacts */,
+				8242C4612464191900A4C243 /* gmp */,
+				8242C4642464191900A4C243 /* LICENSE */,
+				8242C4652464191900A4C243 /* contrib */,
+				8242C48D2464191900A4C243 /* README.md */,
+				8242C48E2464191900A4C243 /* src */,
+			);
+			path = "bls-signatures-pod";
+			sourceTree = "<group>";
+		};
+		8242C45D2464191900A4C243 /* artefacts */ = {
+			isa = PBXGroup;
+			children = (
+				8242C45E2464191900A4C243 /* librelic_ios.a */,
+				8242C45F2464191900A4C243 /* libgmp_ios.a */,
+				8242C4602464191900A4C243 /* libbls_ios.a */,
+			);
+			path = artefacts;
+			sourceTree = "<group>";
+		};
+		8242C4612464191900A4C243 /* gmp */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4622464191900A4C243 /* include */,
+			);
+			path = gmp;
+			sourceTree = "<group>";
+		};
+		8242C4622464191900A4C243 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4632464191900A4C243 /* gmp.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8242C4652464191900A4C243 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4662464191900A4C243 /* relic */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		8242C4662464191900A4C243 /* relic */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4672464191900A4C243 /* include */,
+				8242C48A2464191900A4C243 /* relic-iphoneos-arm64 */,
+			);
+			path = relic;
+			sourceTree = "<group>";
+		};
+		8242C4672464191900A4C243 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4682464191900A4C243 /* relic_epx.h */,
+				8242C4692464191900A4C243 /* relic_ed.h */,
+				8242C46A2464191900A4C243 /* relic_pp.h */,
+				8242C46B2464191900A4C243 /* relic_pool.h */,
+				8242C46C2464191900A4C243 /* relic_types.h */,
+				8242C46D2464191900A4C243 /* relic_fpx.h */,
+				8242C46E2464191900A4C243 /* relic_dv.h */,
+				8242C46F2464191900A4C243 /* relic_label.h */,
+				8242C4702464191900A4C243 /* low */,
+				8242C4762464191900A4C243 /* relic_core.h */,
+				8242C4772464191900A4C243 /* relic_ec.h */,
+				8242C4782464191900A4C243 /* relic_fbx.h */,
+				8242C4792464191900A4C243 /* relic.h */,
+				8242C47A2464191900A4C243 /* relic_fp.h */,
+				8242C47B2464191900A4C243 /* relic_fb.h */,
+				8242C47C2464191900A4C243 /* relic_test.h */,
+				8242C47D2464191900A4C243 /* relic_cp.h */,
+				8242C47E2464191900A4C243 /* relic_bench.h */,
+				8242C47F2464191900A4C243 /* relic_eb.h */,
+				8242C4802464191900A4C243 /* relic_util.h */,
+				8242C4812464191900A4C243 /* relic_md.h */,
+				8242C4822464191900A4C243 /* relic_rand.h */,
+				8242C4832464191900A4C243 /* relic_bc.h */,
+				8242C4842464191900A4C243 /* relic_trace.h */,
+				8242C4852464191900A4C243 /* relic_ep.h */,
+				8242C4862464191900A4C243 /* relic_err.h */,
+				8242C4872464191900A4C243 /* relic_arch.h */,
+				8242C4882464191900A4C243 /* relic_pc.h */,
+				8242C4892464191900A4C243 /* relic_bn.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8242C4702464191900A4C243 /* low */ = {
+			isa = PBXGroup;
+			children = (
+				8242C4712464191900A4C243 /* relic_fpx_low.h */,
+				8242C4722464191900A4C243 /* relic_bn_low.h */,
+				8242C4732464191900A4C243 /* relic_fp_low.h */,
+				8242C4742464191900A4C243 /* relic_dv_low.h */,
+				8242C4752464191900A4C243 /* relic_fb_low.h */,
+			);
+			path = low;
+			sourceTree = "<group>";
+		};
+		8242C48A2464191900A4C243 /* relic-iphoneos-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				8242C48B2464191900A4C243 /* include */,
+			);
+			path = "relic-iphoneos-arm64";
+			sourceTree = "<group>";
+		};
+		8242C48B2464191900A4C243 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8242C48C2464191900A4C243 /* relic_conf.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8242C48E2464191900A4C243 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8242C48F2464191900A4C243 /* extendedpublickey.hpp */,
+				8242C4902464191900A4C243 /* aggregationinfo.hpp */,
+				8242C4912464191900A4C243 /* publickey.hpp */,
+				8242C4922464191900A4C243 /* extendedprivatekey.hpp */,
+				8242C4932464191900A4C243 /* util.hpp */,
+				8242C4942464191900A4C243 /* bls.hpp */,
+				8242C4952464191900A4C243 /* signature.hpp */,
+				8242C4962464191900A4C243 /* privatekey.hpp */,
+				8242C4972464191900A4C243 /* chaincode.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		828FAD062462C76300B0B03F = {
+			isa = PBXGroup;
+			children = (
+				828FAD122462C76300B0B03F /* SLBLSSign */,
+				828FAD1D2462C76400B0B03F /* SLBLSSignTests */,
+				828FAD112462C76300B0B03F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828FAD112462C76300B0B03F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828FAD102462C76300B0B03F /* SLBLSSign.framework */,
+				828FAD192462C76400B0B03F /* SLBLSSignTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		828FAD122462C76300B0B03F /* SLBLSSign */ = {
+			isa = PBXGroup;
+			children = (
+				8242C45C2464191900A4C243 /* bls-signatures-pod */,
+				828FAD132462C76300B0B03F /* SLBLSSign.h */,
+				828FAD142462C76300B0B03F /* Info.plist */,
+			);
+			path = SLBLSSign;
+			sourceTree = "<group>";
+		};
+		828FAD1D2462C76400B0B03F /* SLBLSSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				828FAD1E2462C76400B0B03F /* SLBLSSignTests.m */,
+				828FAD202462C76400B0B03F /* Info.plist */,
+			);
+			path = SLBLSSignTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		828FAD0B2462C76300B0B03F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8242C4BE2464191A00A4C243 /* relic_conf.h in Headers */,
+				8242C4B02464191A00A4C243 /* relic_test.h in Headers */,
+				8242C49B2464191A00A4C243 /* gmp.h in Headers */,
+				8242C4AC2464191A00A4C243 /* relic_fbx.h in Headers */,
+				8242C49E2464191A00A4C243 /* relic_ed.h in Headers */,
+				8242C4A22464191A00A4C243 /* relic_fpx.h in Headers */,
+				8242C4A32464191A00A4C243 /* relic_dv.h in Headers */,
+				8242C4C82464191A00A4C243 /* chaincode.hpp in Headers */,
+				8242C4C22464191A00A4C243 /* publickey.hpp in Headers */,
+				8242C4AD2464191A00A4C243 /* relic.h in Headers */,
+				8242C4B52464191A00A4C243 /* relic_md.h in Headers */,
+				8242C4BC2464191A00A4C243 /* relic_pc.h in Headers */,
+				8242C4AA2464191A00A4C243 /* relic_core.h in Headers */,
+				8242C4BB2464191A00A4C243 /* relic_arch.h in Headers */,
+				8242C4A82464191A00A4C243 /* relic_dv_low.h in Headers */,
+				8242C4B72464191A00A4C243 /* relic_bc.h in Headers */,
+				8242C4B22464191A00A4C243 /* relic_bench.h in Headers */,
+				8242C4B92464191A00A4C243 /* relic_ep.h in Headers */,
+				8242C4A42464191A00A4C243 /* relic_label.h in Headers */,
+				8242C4B32464191A00A4C243 /* relic_eb.h in Headers */,
+				8242C4BA2464191A00A4C243 /* relic_err.h in Headers */,
+				8242C4B42464191A00A4C243 /* relic_util.h in Headers */,
+				8242C4C72464191A00A4C243 /* privatekey.hpp in Headers */,
+				8242C4A12464191A00A4C243 /* relic_types.h in Headers */,
+				8242C4B12464191A00A4C243 /* relic_cp.h in Headers */,
+				8242C49F2464191A00A4C243 /* relic_pp.h in Headers */,
+				8242C4B62464191A00A4C243 /* relic_rand.h in Headers */,
+				8242C4C02464191A00A4C243 /* extendedpublickey.hpp in Headers */,
+				8242C4A92464191A00A4C243 /* relic_fb_low.h in Headers */,
+				8242C4A62464191A00A4C243 /* relic_bn_low.h in Headers */,
+				8242C4C52464191A00A4C243 /* bls.hpp in Headers */,
+				8242C4A72464191A00A4C243 /* relic_fp_low.h in Headers */,
+				8242C4C32464191A00A4C243 /* extendedprivatekey.hpp in Headers */,
+				8242C4C42464191A00A4C243 /* util.hpp in Headers */,
+				8242C4C62464191A00A4C243 /* signature.hpp in Headers */,
+				8242C4B82464191A00A4C243 /* relic_trace.h in Headers */,
+				8242C4C12464191A00A4C243 /* aggregationinfo.hpp in Headers */,
+				8242C4AB2464191A00A4C243 /* relic_ec.h in Headers */,
+				8242C49D2464191A00A4C243 /* relic_epx.h in Headers */,
+				8242C4AE2464191A00A4C243 /* relic_fp.h in Headers */,
+				8242C4A52464191A00A4C243 /* relic_fpx_low.h in Headers */,
+				8242C4A02464191A00A4C243 /* relic_pool.h in Headers */,
+				8242C4AF2464191A00A4C243 /* relic_fb.h in Headers */,
+				8242C4BD2464191A00A4C243 /* relic_bn.h in Headers */,
+				828FAD212462C76400B0B03F /* SLBLSSign.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		828FAD0F2462C76300B0B03F /* SLBLSSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828FAD242462C76400B0B03F /* Build configuration list for PBXNativeTarget "SLBLSSign" */;
+			buildPhases = (
+				828FAD0B2462C76300B0B03F /* Headers */,
+				828FAD0C2462C76300B0B03F /* Sources */,
+				828FAD0D2462C76300B0B03F /* Frameworks */,
+				828FAD0E2462C76300B0B03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLBLSSign;
+			productName = SLBLSSign;
+			productReference = 828FAD102462C76300B0B03F /* SLBLSSign.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		828FAD182462C76400B0B03F /* SLBLSSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828FAD272462C76400B0B03F /* Build configuration list for PBXNativeTarget "SLBLSSignTests" */;
+			buildPhases = (
+				828FAD152462C76400B0B03F /* Sources */,
+				828FAD162462C76400B0B03F /* Frameworks */,
+				828FAD172462C76400B0B03F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				828FAD1C2462C76400B0B03F /* PBXTargetDependency */,
+			);
+			name = SLBLSSignTests;
+			productName = SLBLSSignTests;
+			productReference = 828FAD192462C76400B0B03F /* SLBLSSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828FAD072462C76300B0B03F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "li shuai";
+				TargetAttributes = {
+					828FAD0F2462C76300B0B03F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					828FAD182462C76400B0B03F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					828FAD2A2462C81E00B0B03F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 828FAD0A2462C76300B0B03F /* Build configuration list for PBXProject "SLBLSSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 828FAD062462C76300B0B03F;
+			productRefGroup = 828FAD112462C76300B0B03F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				828FAD0F2462C76300B0B03F /* SLBLSSign */,
+				828FAD182462C76400B0B03F /* SLBLSSignTests */,
+				828FAD2A2462C81E00B0B03F /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828FAD0E2462C76300B0B03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8242C4BF2464191A00A4C243 /* README.md in Resources */,
+				8242C49C2464191A00A4C243 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828FAD172462C76400B0B03F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		828FAD2E2462C82B00B0B03F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#要build的target名(若一个工程有多个target，最好手动指定需要打包的目标，如TARGET_NAME=\"framework名\")\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/Products/\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\n\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		828FAD0C2462C76300B0B03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828FAD152462C76400B0B03F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828FAD1F2462C76400B0B03F /* SLBLSSignTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		828FAD1C2462C76400B0B03F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 828FAD0F2462C76300B0B03F /* SLBLSSign */;
+			targetProxy = 828FAD1B2462C76400B0B03F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		828FAD222462C76400B0B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		828FAD232462C76400B0B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		828FAD252462C76400B0B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLBLSSign/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLBLSSign/bls-signatures-pod/artefacts",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = lishuailibertine.SLBLSSign;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		828FAD262462C76400B0B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLBLSSign/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SLBLSSign/bls-signatures-pod/artefacts",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = lishuailibertine.SLBLSSign;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		828FAD282462C76400B0B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				INFOPLIST_FILE = SLBLSSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishuailibertine.SLBLSSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		828FAD292462C76400B0B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				INFOPLIST_FILE = SLBLSSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishuailibertine.SLBLSSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		828FAD2C2462C81E00B0B03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		828FAD2D2462C81E00B0B03F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TQN9US27R;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828FAD0A2462C76300B0B03F /* Build configuration list for PBXProject "SLBLSSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828FAD222462C76400B0B03F /* Debug */,
+				828FAD232462C76400B0B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828FAD242462C76400B0B03F /* Build configuration list for PBXNativeTarget "SLBLSSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828FAD252462C76400B0B03F /* Debug */,
+				828FAD262462C76400B0B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828FAD272462C76400B0B03F /* Build configuration list for PBXNativeTarget "SLBLSSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828FAD282462C76400B0B03F /* Debug */,
+				828FAD292462C76400B0B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828FAD2B2462C81E00B0B03F /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828FAD2C2462C81E00B0B03F /* Debug */,
+				828FAD2D2462C81E00B0B03F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828FAD072462C76300B0B03F /* Project object */;
+}
