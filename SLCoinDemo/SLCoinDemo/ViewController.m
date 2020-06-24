@@ -7,11 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SLCoinDemo-Swift.h"
-#import "FileCoinAccount.h"
-#import "FileCoinECKey.h"
-#import "NSString+Base58.h"
-#import "FileCoinJsonrpcProvider.h"
+#import "FileCoinBLSKey.h"
 
 @interface ViewController ()
 
@@ -23,49 +19,34 @@
 {
     [super viewDidLoad];
     
-    [self testFileSign];
+    [self testFileCoin];
 }
 //fileCoin
 - (void)testFileCoin{
-    FileCoinAccount *account =[FileCoinAccount randomMnemonicAccount];
-    FileCoinECKey *ecKey =[[FileCoinECKey alloc] initWithPriKey:account.privateKey.hexToData];
-}
-- (void)testToAddress{
-    Byte byte[32] = {251,94,160,238,167,133,53,119,240,101,1,22,26,102,137,161,178,105,
-        28,22,136,225,18,194,16,166,75,183,102,4,160,164
-    };
-    NSData *privateData =[NSData dataWithBytes:byte length:32];
-    FileCoinECKey *ecKey =[[FileCoinECKey alloc] initWithPriKey:privateData];
-    
-    Byte publicData[65];
-    [ecKey.publicKeyAsData getBytes:&publicData length:65];
-    NSLog(@"%@",[FileCoinAddress toBase32Address:ecKey.publicKeyAsData]);
-    [self testSign:ecKey];
-}
-- (void)testGetBalance{
-    FileCoinJsonrpcProvider *rpc =[[FileCoinJsonrpcProvider alloc] init];
-    [rpc getBalanceWithBalance:@"t1r5m7sguodv6klestmo52wj744vmhsgm3n2ik5di" callback:^(NSError *error, id response) {
-        
-    }];
-}
-- (void)testFileSign{
-    FileCoinAccount *account =[FileCoinAccount accountWithPrivateKey:@"dda247046ab9d18f461819f1e0fdce7c40172c03e0686dcad0d853de8e7b2561"];
-    FileCoinTransaction *transaction =[[FileCoinTransaction alloc] init];
-    transaction.fromAddress =@"t1r5m7sguodv6klestmo52wj744vmhsgm3n2ik5di";
-    transaction.toAddress =@"t1eksi7z6553elrprm7ply2dq4lk7u5cvaa66m7oa";
-    transaction.gasLimit =[BigNumber bigNumberWithInteger:10000];
-    transaction.gasPrice =[BigNumber bigNumberWithInteger:1];
-    transaction.value =[BigNumber bigNumberWithInteger:1];
-    transaction.method =@(0);
-    transaction.nonce =@(1);
-    transaction.params =@"";
-    
+    NSString *seedStr = @"543d7c46cbbf5baabc4ab01661faa91a693b2704f667e33585e4d63ba5069e27";
+    uint8_t seed[] = {0, 50, 6, 244, 24, 199, 1, 25, 52, 88, 192,
+    19, 18, 12, 89, 6, 220, 18, 102, 58, 209,
+    82, 12, 62, 89, 110, 182, 9, 44, 20, 254, 22};
+    NSMutableData *data =[NSMutableData data];
+    for (int i=0; i<sizeof(seed);i++) {
+        [data appendBytes:&seed[i] length:1];
+    }
+    FileCoinBLSKey *blsKey =[FileCoinBLSKey createFileCoinBLSKeyWithPrivateData:[self fromHexString:seedStr]];
 
-    [transaction sign:account];
-    NSLog(@"%@",[transaction signedMessage]);
+    NSLog(@"%@",blsKey.blsPrivateData);
 }
-- (void)testSign:(FileCoinECKey *)eckey{
-    NSString * hexMessage =@"a1";
-    NSLog(@"%@",[eckey sign:hexMessage.hexToData]);
+- (NSMutableData *)fromHexString:(NSString*)str {
+  NSMutableData *data = [NSMutableData new];
+  // 处理不是2的倍数
+  int len = (int)(str.length);
+  if(str.length % 2 != 0){
+      len--;
+  }
+  for (int i = 0; i < len; i+=2) {
+      NSString *hexChar = [str substringWithRange:NSMakeRange(i, 2)];
+      uint8_t value1 = strtoul([hexChar UTF8String], nil, 16);
+      [data appendBytes:&value1 length:sizeof(value1)];
+  }
+    return data;
 }
 @end
